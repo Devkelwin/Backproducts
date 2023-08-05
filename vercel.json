@@ -16,16 +16,5 @@
         "Access-Control-Allow-Headers": "X-Requested-With,Content-Type,Authorization"
     }
       }
-  ],
-  "headers": [
-    {
-      "source": "/api/.*",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        }
-      ]
-    }
   ]
 }
