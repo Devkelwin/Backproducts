@@ -1,0 +1,5 @@
+## COMO RODAR APLICAÇÃO EM MODO DESENVOLVEDOR
+
+```
+npm run dev
+```
