@@ -12,7 +12,7 @@ datasource db {
 
 model Products {
   
-  product_id Sring
+  product_id String
   product_name String
   actual_price String
   img_link String

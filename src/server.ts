@@ -13,7 +13,7 @@ app.get('/products', async (request, response) => {
 
 app.post('/products', async (request, response) => {
   const { product_id,product_name,actual_price,img_link,about_product } = request.body
-  const products = await prismaClient.book.create({
+  const products = await prismaClient.products.create({
     data: {
       product_id,
       product_name,
